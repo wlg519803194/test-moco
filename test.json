@@ -1,0 +1,22 @@
+[
+  {
+    "request" :
+    {
+        "method" : "get",
+        "uri" : "/api/meinv"
+    },
+    "response" :
+    {
+      "headers" :{
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods":"PUT,POST,GET,DELETE,OPTIONS",
+        "Access-Control-Allow-Headers": "Content-Type,Content-Length, Authorization, Accept,X-Requested-With",
+        "Content-Type":"text/html;charset=utf-8"
+      },
+      "json" : {
+        "name": "美女",
+        "age": "18"
+      }
+    }
+  }
+]
